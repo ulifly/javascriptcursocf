@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>ciclos</title>
+</head>
+<body>
+    <div class="arriba">Ciclos en JavaScript</div> 
+
+    <div>En JavaScript, los ciclos se utilizan para ejecutar un bloque de código repetidamente hasta que se cumpla una condición específica. 
+    <p>Hay varios tipos de ciclos en JavaScript, como el ciclo for, el ciclo while y el ciclo do...while.</p>
+    <p>ciclo for</p>
+        El ciclo for se utiliza cuando se conoce de antemano la cantidad exacta de veces que se desea ejecutar un bloque de código. La sintaxis básica del ciclo for es la siguiente:</div>
+    <div class="codigo">
+        <span class="morado">for </span>(<span class="azul"> let</span> i <span class="morado">=</span> <span class="mostaza">0</span>;   i <span class="morado">&lt;</span> <span class="mostaza">11</span>; i <span class="morado">++</span>){
+        <div class="codigo part2"><span class="mostaza">console</span>.log(i);</div>
+        }
+        <div class="codigo part3"><span class="mostaza">console</span>.log( <span class="verde">'Fin'</span> );</div>
+    </div>
+    <div class="parte">
+        <p>En la inicialización, se declara e inicializa una variable de control.</p> 
+        La condición se evalúa antes de cada iteración y, si es verdadera, se ejecuta el bloque de código. Después de cada iteración, se ejecuta la expresión de incremento. El ciclo for se repite hasta que la condición se evalúe como falsa.
+    </div>
+        <div>
+        <p>Ciclo while:</p>
+        </div>
+        <div class="parte">
+            El ciclo while se utiliza cuando no se conoce de antemano la cantidad exacta de veces que se desea ejecutar un bloque de código.
+        </div>
+
+        <div class="codigo">
+            <span class="morado">while</span>(cont <span class="morado">!= </span> <span class="mostaza">0</span>) {
+                <div class="codigo part2"><span class="mostaza">console</span>.log(cont);</div>
+                <div class="codigo part2">cont = cont <span class="morado">-</span><span class="mostaza">1</span></div>
+            }
+        </div>
+        <div class="parte">
+            La condición se evalúa antes de cada iteración y, si es verdadera, se ejecuta el bloque de código. El ciclo while se repite hasta que la condición se evalúe como falsa.
+        </div>
+        
+        <div class="parte">
+            <p>Ciclo do...while:</p>
+             El ciclo do...while es similar al ciclo while, pero la diferencia es que el bloque de código se ejecuta al menos una vez antes de evaluar la condición.
+        </div>
+        <div class="codigo">
+            <span class="morado">do </span> {
+                <div class="codigo part2"><span class="mostaza">console</span>.log(iteracion);</div>
+                <div class="codigo part2">iteracion <span class="morado">=</span> iteracion <span class="morado">+</span> <span class="mostaza">10</span>;</div>
+            } <span class="morado">while</span> (iteracion <span class="morado">&lt;</span> <span class="mostaza">100</span> );
+        </div>
+        <div class="parte">
+            Este bucle do...while ejecutará el código dentro de las llaves al menos una vez y luego se repetirá siempre que la condición iteracion &lt;= 100 sea verdadera. En cada iteración, el valor de iteracion se incrementa en 10 y se muestra en la consola. El bucle se detendrá cuando iteracion sea mayor que 100 .
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>

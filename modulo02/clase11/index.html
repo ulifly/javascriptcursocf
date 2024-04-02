@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Condiciones</title>
+</head>
+<body>
+    <div class="arriba">
+        En JavaScript, las condiciones se utilizan para tomar decisiones y ejecutar diferentes bloques de código según el resultado de una expresión booleana. Las condiciones se pueden implementar utilizando la declaración if, else if y else, así como el operador condicional ?.
+    </div>
+    <div>
+        La declaración if se utiliza para ejecutar un bloque de código si una condición especificada es verdadera. Por ejemplo:
+    </div>
+    <div class="codigo">
+
+        <span class="morado">if</span> (edad >= <span class="mostaza">18</span>) {
+            <div class="codigo part2"> <span class="mostaza">console</span>.log("<span class="verde">Eres mayor de edad</span>");</div>
+  }
+    </div>
+
+    <div class="parte">
+        En el ejemplo anterior, si la variable edad es mayor o igual a 18, se imprimirá en la consola el mensaje "Eres mayor de edad".
+    </div>
+
+    <div class="parte">
+        La declaración else if se utiliza para especificar una nueva condición que se evaluará si la condición anterior es falsa. Por ejemplo:
+    </div>
+    <div class="codigo">
+        <span class="morado">if</span> (edad >= <span class="mostaza">18</span>) {
+          <div class="codigo part2"><span class="mostaza">console</span>.log(<span class="verde">"Eres mayor de edad"</span>);</div>
+          <div class="codigo part3"><span class="morado">else if</span> (edad >= <span class="mostaza">13</span>) {</div>} 
+          <div class="codigo part2"><span class="mostaza">console</span>.log(<span class="verde">"Eres adolescente"</span>);</div>  
+          <div class="codigo part3">} <span class="morado">else</span> {</div> 
+          <div class="codigo part2"><span class="mostaza">console</span>.log(<span class="verde">"Eres niño"</span>);</div>
+          }
+    </div>
+    <div>
+        <p>En este caso, si la variable edad es mayor o igual a 18, se imprimirá "Eres mayor de edad".</p>
+        <p>Si no se cumple esa condición pero la edad es mayor o igual a 13, se imprimirá "Eres adolescente". Si ninguna de las condiciones anteriores es verdadera, se imprimirá "Eres niño".</p>
+
+        El operador condicional ? es una forma abreviada de escribir una declaración if...else. Por ejemplo:
+    </div>
+    <div class="codigo">
+        <span class="morado">let</span> resultado = (edad >= <span class="mostaza">18</span>) ? <span class="verde">"Eres mayor de edad"</span>  : <span class="verde">"Eres menor de edad"</span>;
+        <div class="codigo part2"></div><span class="mostaza">console</span>.log(resultado);
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

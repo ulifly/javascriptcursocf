@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+    color: aliceblue;
+}
+
+div {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.arriba {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.codigo {
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.codigo .part2 {
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+.codigo .part3 {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.morado {
+    color: hsl(300, 100%, 34%);
+}
+
+.mostaza{
+    color: rgb(202, 160, 54);
+}
+
+.verde {
+    color: chartreuse;
+}
+
+.parte {
+    padding-top: 20px;
+}

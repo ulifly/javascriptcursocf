@@ -1,0 +1,16 @@
+
+* {   
+    background-color: black;
+    color: rgb(227, 247, 247);
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.arriba {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.abajo {
+    padding-top: 30px;
+} 
